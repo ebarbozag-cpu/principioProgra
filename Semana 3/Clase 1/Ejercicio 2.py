@@ -2,7 +2,7 @@
 
 km_inicio = 0
 km_fin = 0
-km_suma = 0
+km_resta = 0
 km_total = 0
 
 #Solicitar entradas
@@ -12,9 +12,9 @@ km_fin = int(input("Ingrese el kilometraje final:" ))
 
 #Realizar operación
 
-km_suma = km_inicio - km_fin
-km_total = km_suma + km_inicio
+km_recorrido = km_fin - km_inicio
+
 
 #Salidas
 
-print("El kilometraje total es de: ",km_total)
+print("El kilomentraje del recorrido es de: ",km_recorrido)
