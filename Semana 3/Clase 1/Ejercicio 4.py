@@ -13,7 +13,7 @@ ano_matrimonio = int(input("Digite el año del matrimonio:"))
 #Procesos
 
 ano_abuela = ( ano_matrimonio - 25) + 7
-edad_abuela = 2025 - ano_abuela
+edad_abuela = 2025 -  ano_abuela
 
 
 
