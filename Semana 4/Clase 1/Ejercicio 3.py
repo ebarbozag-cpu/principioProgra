@@ -8,12 +8,12 @@ try:
 
 #Procesos/salidas
 
-    if nota >= 70:
-    print("El estudiante aprobó")
-    elif:
-    print("El estudiante reprobó")
+    if nota >= 70 and nota <= 100:
+        print("El estudiante aprobó")
+    elif nota >= 0 and nota < 70:
+        print("El estudiante reprobó")
     else:
-    print("Error: La nota debe ser un número entero entre 0 y 100")
+        print("Error: La nota debe ser un número entero entre 0 y 100")
 except:
     print("Error: Entrada inválida. Por favor, ingrese un número entero.")
 
